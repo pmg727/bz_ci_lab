@@ -22,7 +22,7 @@ TEST_F(CalculatorTest, Subtraction) {
 TEST_F(CalculatorTest, Multiplication) {
     EXPECT_EQ(calc.Multiply(6, 7),  42);
     EXPECT_EQ(calc.Multiply(-3, 4), -12);
-    EXPECT_EQ(calc.Multiply(-3, -10), -30);
+    EXPECT_EQ(calc.Multiply(-3, -10), 30);
     EXPECT_EQ(calc.Multiply(0, 99),  0);
 }
 
